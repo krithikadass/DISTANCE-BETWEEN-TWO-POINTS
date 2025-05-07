@@ -15,26 +15,27 @@ Calculate the distance between the two points using the distance formula.
 Return the calculated distance.
 ### PROGRAM:
 ```
-#Program Developed By: M.Krithika Lakshmi
-#Register Number: 212224230134
+# Developed by: M.Krithika Lakshmi
+# Register no: 212224230134
 
 import math
 def dis(x1,y1,x2,y2):
     d=((x2-x1)**2+(y2-y1)**2)
     g=math.sqrt(d)
-return g
+    return g
 x1=4
 x2=10
 y1=2
 y2=6
 g=dis(x1,y1,x2,y2)
-print("{:.2f}".format(g))
+print("{:.2f}".format(g))  
   
 ```
 
 ### OUTPUT:
 
-![Screenshot 2025-05-07 140051](https://github.com/user-attachments/assets/fa966235-3329-4651-8f91-42d2ddd23e61)
+![Screenshot 2025-05-07 152625](https://github.com/user-attachments/assets/e6cbb7d8-996a-4f8c-92ad-c6153b781b5f)
+
 
 
 ### RESULT:
